@@ -1,2 +1,2 @@
 # **Ina Davidziuk**
-## junior UX/UI designer
+## *Junior Frontend Developer*
