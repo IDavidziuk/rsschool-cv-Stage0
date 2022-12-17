@@ -10,13 +10,6 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    min-height: 50px;
-}
-
-@media (max-width: 1440px) {
-.container {
-    padding: 0 20px;
-}
 }
 
 .body{
@@ -40,7 +33,7 @@ html {
 .menu::after {
     content: "";
     position: absolute;
-    left: 47%;
+    left: 46%;
     margin-left: -100px;
     width: 720px;
     height: 1px;
@@ -55,7 +48,7 @@ html {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding-right: 80px;
+    margin-right: 120px;
     margin-top: 30px;
     
 }
@@ -86,8 +79,8 @@ html {
 }
 
 .profile-photo {
-    width: 300px;
-    height: 300px; 
+    width:250px;
+    height: 250px; 
     border-radius: 40px;
     margin-top: 40px;
     background-color: #F9FBFF;
@@ -95,15 +88,14 @@ html {
 
 .column-left {
     width: 35%;
+    align-items: center;
     text-align: center;
-    padding-right: 50px;
     padding-left: 100px;
-    
 }
 
 .column-right {
     width: 65%;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .section-title {
@@ -144,7 +136,7 @@ padding-top: 15px;
 .column-right.line::after {
     content: "";
     position: absolute;
-    left: 47%;
+    left: 46%;
     margin-left: -100px;
     width: 700px;
     height: 1px;
@@ -198,7 +190,7 @@ padding-top: 15px;
     padding-top: 10px;
 }
 
-.link-progect, .linkedIn-link, .discord-link {
+.link-progect, .linkedIn-link, .discord-link, .github-link {
     color: #20283D;
     text-decoration: none;
 }
@@ -219,7 +211,7 @@ padding-top: 15px;
     color: #6D82AB;
 }
 
-.phone, .linkedin, .envelope, .discord {
+.phone, .linkedin, .envelope, .discord, .my-git {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
@@ -244,4 +236,31 @@ padding-top: 15px;
 
 .blue-background {
     background-color: #6D82AB;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        
+}
+
+.logo {
+    width: 95px;
+    height: 35px;
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    margin-bottom: 100px;
+    width: 1125px;
+    height: 1px;
+    background-color: #20283D;
 }
