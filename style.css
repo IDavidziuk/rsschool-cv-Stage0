@@ -18,12 +18,11 @@
 }
 }
 
+
 .body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width: 320px;
-    min-width: 320px;
     min-height: 100vh;
     background-color:white;
     font-size: 18px;
@@ -40,20 +39,9 @@ html {
 
 .menu {
     margin-top: 30px;
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
-
-.menu::after {
-    content: "";
-    position: absolute;
-    left: 46%;
-    margin-left: -100px;
-    width: 50%;
-    height: 1px;
-    background-color: #20283D;
-    margin-top: 10px;
-}
 
 .menu-list {
     display: flex;
@@ -83,7 +71,18 @@ html {
     display: inline-flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    width: 100%;   
+    width: 100%;
+    
+}
+
+.menu-list::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    margin-bottom: -60px;
+    left: 39%;
+    height: 1px;
+    background-color: #20283D;
 }
 
 .profile-photo {
@@ -123,7 +122,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 70px;
 margin: 0;
-padding-top: 80px;
+padding-top: 60px;
 }
 
 .title {
