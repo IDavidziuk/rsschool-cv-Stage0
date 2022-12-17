@@ -30,27 +30,27 @@ html {
     scroll-behavior: smooth; 
 }
 
+.menu {
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
 .menu::after {
     content: "";
     position: absolute;
     left: 46%;
     margin-left: -100px;
-    width: 720px;
+    width: 50%;
     height: 1px;
     background-color: #20283D;
     margin-top: 10px;
 }
-
-
 
 .menu-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-right: 120px;
-    margin-top: 30px;
-    
 }
 
 .nav-link {
@@ -78,25 +78,30 @@ html {
     
 }
 
+
+
 .profile-photo {
     width:250px;
     height: 250px; 
     border-radius: 40px;
-    margin-top: 40px;
-    background-color: #F9FBFF;
+    margin-top: 20px;
 }
 
 .column-left {
     width: 35%;
     align-items: center;
     text-align: center;
-    padding-left: 100px;
-    
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #f4f8ff;
 }
 
 .column-right {
     width: 65%;
     margin-left: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .section-title {
@@ -121,15 +126,9 @@ color: #6D82AB;
 padding-top: 15px;
 }
 
-.about-me {
-    display: flex;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    
-}
-
 .about-description {
-    width: 700px;
+    display: block;
+    width: 90%;
     font-size: 18px;
     line-height: 130%;
 }
@@ -139,18 +138,15 @@ padding-top: 15px;
     position: absolute;
     left: 46%;
     margin-left: -100px;
-    width: 700px;
+    width: 50%;
     height: 1px;
     background-color: #20283D;
     margin-top: 40px;
 }
 
 
-.education, .courses, .skills, .code, .projects, .languages, .contacts {
+.about-me, .education, .courses, .skills, .code, .projects, .languages, .contacts {
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
 }
 
 .education-list, .courses-list {
@@ -187,8 +183,8 @@ padding-top: 15px;
     padding-left: 100px;
 }
 
-.progect-one, .languges-list {
-    padding-top: 10px;
+.progect-one {
+    padding-top: 25px;
 }
 
 .link-progect, .linkedIn-link, .discord-link, .github-link {
@@ -214,6 +210,10 @@ padding-top: 15px;
     padding-left: 300px;
 }
 
+.table {
+    padding: 0;
+    margin: 0;
+}
 .languges-item {
     font-weight: 500;
     font-size: 18px;
@@ -279,7 +279,7 @@ padding-top: 15px;
     content: "";
     position: absolute;
     margin-bottom: 100px;
-    width: 1125px;
+    width: 80%;
     height: 1px;
     background-color: #20283D;
 }
