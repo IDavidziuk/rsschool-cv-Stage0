@@ -12,11 +12,19 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1440px){
+.container {
+    padding: 0 30px;
+}
+}
+
 .body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-width: 320px;
+    min-width: 320px;
+    min-height: 100vh;
     background-color:white;
     font-size: 18px;
     font-weight: 400;
@@ -34,6 +42,7 @@ html {
     margin-top: 30px;
     margin-right: 120px;
 }
+
 
 .menu::after {
     content: "";
@@ -74,11 +83,8 @@ html {
     display: inline-flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    width: 100%;
-    
+    width: 100%;   
 }
-
-
 
 .profile-photo {
     width:250px;
