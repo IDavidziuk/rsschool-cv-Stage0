@@ -24,7 +24,7 @@
         </nav>
     </div>
     </header>
-    <main class="main-container">
+    <main class="main-container container">
     <section class="profile">
         <div class="column-right">
         <div class="profile-title">
@@ -98,15 +98,21 @@
     <section class="code" id="code">
         <div class="column-left"><h2 class="section-title">Code</h2></div>
         <div class="column-right line">
-            <pre>
-            <code>
-            "function factorial(n) { 
-                if(n &lt; 0) return null;
-                if (n &lt;= 1) return 1; 
-                return n * factorial(n-1); 
-                }"
-            </code>
-            </pre>
+<pre class="pre"><code>int main()
+{
+   for (char ch; cin.get(ch);)
+   {
+    char output = ch;
+    if (ch == 'e')
+       output = 'i';
+    else if (ch == 'o')
+       output = 'u';
+    else if (ch == 'a')
+       output = 'o';
+    cout.put(output);
+   }
+   return EXIT_SUCCESS;
+}</code></pre>
     </div>
     </section>
     <section class="projects" id="projects">
@@ -175,14 +181,14 @@
     </section>
 </main>
 <footer class="footer">
-<div class="container">
+<div class="container footer-container">
     <div class="my-git">
-        <img src="/rsschool-cv/assets/svg/github.svg" alt="GitHub-icon">
+        <img src="/rsschool-cv/assets/svg/github.svg" alt="GitHub-icon" class="icon">
         <a href="https://github.com/Ina-Davidziuk" target="_blank" class="github-link">Ina-Davidziuk</a>
     </div>
     <p class="footer-year">December, 2022</p>
     <a href="https://rs.school/js/" target="_blank" class="rsschool">
-        <img src="/rsschool-cv/assets/img/image1.png" alt="RSSchool-icon">
+    <img src="/rsschool-cv/assets/img/image1.png" alt="RSSchool-icon" class="logo">
     </a>
 </div>
 </footer>
