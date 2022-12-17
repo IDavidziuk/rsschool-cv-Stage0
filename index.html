@@ -4,9 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Text</h1>
+    <header class="header">
+    <div class="container header-container">
+        <nav class="menu">
+        <ul class="menu-list">
+            <li class="menu-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="menu-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="menu-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="menu-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="menu-item"><a href="#languages" class="nav-link">Languages</a></li>
+            <li class="menu-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+    <main class="main-container container">
+    <section class="profile">
+        <div class="column-right">
+        <div class="profile-title">
+            <h1 class="main-title">Ina Davidziuk</h1>
+            <h2 class="title">Junior Front-end developer</h2>
+        </div>
+    </div>
+    <div class="column-left">
+        <img src="/rsschool-cv/assets/img/image-photo.png" alt="My photo" class="profile-photo">
+    </div>
+    </section>
+    <section class="about-me">
+        <div class="column-left">
+        <h2 class="section-title">About me</h2>
+    </div>
+    <div class="column-right line">
+        <p class="about-description">Hello! I'm a junior Front-end developer. I'm currently studying at RSS school.</p>
+        <p class="about-description">I worked as a doctor forout six years, but decided to change my field of activity. I decided to try development. I think there are many opportunities for growth and development in this area.</p>
+    </div>
+    </section>
+    <section class="education" id="education">
+        <div class="column-left">
+        <h2 class="section-title">Education</h2>
+        </div>
+    <div class="column-right line">
+            <ul class="education-list">
+            <li class="year">2009-2015</li>
+            <li class="speciality">Doctor</li>
+            <li class="school">Grodno State Medical University</li>
+            </ul>
+    </div>
+    </section>
+    <section class="courses">
+        <div class="column-left"><h2 class="section-title">Courses</h2>
+        </div>
+        <div class="column-right line">
+        <table class="courses-information">
+            <tr class="line">
+            <td class="column-first">
+                <p class="year">2021</p>
+                <p class="speciality">“Figma for designer”</p>
+                <p class="school">Itlogia</p>
+            </td>
+        <td class="column-third">
+                <p class="year">2020-2021</p>
+                <p class="speciality">“World of web-designer”</p>
+                <p class="school">Itlogia</p>
+        </td>
+        </tr>
+        <tr class="line">
+        <td class="column-second" colspan="2">
+                <p class="year">2022</p>
+                <p class="speciality">“Web development for beginners”</p>
+                <p class="school">Stepik</p>
+        </td>
+        </tr>
+        </table>
+    </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="column-left"><h2 class="section-title">Skills</h2>
+        </div>
+        <div class="column-right line">
+        <ul class="skills-list">
+            <li class="skills-item">HTML5, CSS3</li>
+            <li class="skills-item">Git, GitHub</li>
+            <li class="skills-item">Figma, Adobe Photoshop</li>
+        </ul>
+    </div>
+    </section>
+    <section class="code" id="code">
+        <div class="column-left"><h2 class="section-title">Code</h2></div>
+        <div class="column-right line">
+<pre class="pre"><code>int main()
+{
+   for (char ch; cin.get(ch);)
+   {
+    char output = ch;
+    if (ch == 'e')
+       output = 'i';
+    else if (ch == 'o')
+       output = 'u';
+    else if (ch == 'a')
+       output = 'o';
+    cout.put(output);
+   }
+   return EXIT_SUCCESS;
+}</code></pre>
+    </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="column-left"><h2 class="section-title">Projects</h2>
+        </div>
+        <div class="column-right line">
+        <div class="progect-one">
+            <a class="link-progect" href="https://Ina-Davidziuk.github.io/rsschool-cv/" target="_blank">CV</a>
+        </div>
+    </div>
+    </section>
+    <section class="languages" id="languages">
+        <div class="column-left"><h2 class="section-title">Languages</h2>
+        </div>
+        <div class="column-right line">
+        <table class="languges-list table">
+            <tr>
+                <td class="column-one">
+            <p class="languges-item">Russian</p>
+            <p class="languges-level">Native</p>
+        </td>
+        <td class="column-two">
+            <p class="languges-item">English</p>
+            <p class="languges-level">B1</p>
+        </td>
+        </tr>
+        </table>
+    </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="column-left">
+            <h2 class="section-title">Contacts</h2>
+        </div>
+        <div class="column-right">
+            <table class="contacts-list">
+            <tr>
+            <td class="contact-item col-one">
+                <div class="phone">
+                <img src="/rsschool-cv/assets/svg/Phone.svg" alt="Phone_icon" class="icon">
+                <p class="information">+48 500-303-446</p>
+            </div>
+            </td>
+            <td class="contact-item col-two">
+                <div class="linkedin">
+                <img src="/rsschool-cv/assets/svg/LinkedIn.svg" alt="LinkedIn_icon" class="icon">
+                <a href="https://www.linkedin.com/in/inadavidziuk-uiux/" target="_blank" class="linkedIn-link information">inadavidziuk-uiux</a>
+            </div>
+            </td>
+            </tr>
+        <tr>
+            <td class="contact-item col-one">
+                <div class="envelope">
+                <img src="/rsschool-cv/assets/svg/envelope.svg" alt="envelope_icon" class="icon">
+                <p class="information">ina.davidziuk@gmail.com</p>
+            </div>
+            </td>
+            <td class="contact-item col-two">
+                <div class="discord">
+                <img src="/rsschool-cv/assets/svg/Discord.svg" alt="Discord_icon" class="icon">
+                <a href="https://discord.com/channels/@me" target="_blank" class="discord-link information">Ina-Davidziuk#0378</a>
+            </div>
+            </td>
+    </tr>
+    </table>
+    </div>
+    </section>
+</main>
+<footer class="footer">
+<div class="container footer-container">
+    <div class="my-git">
+        <img src="/rsschool-cv/assets/svg/github.svg" alt="GitHub-icon" class="icon">
+        <a href="https://github.com/Ina-Davidziuk" target="_blank" class="github-link">Ina-Davidziuk</a>
+    </div>
+    <p class="footer-year">December, 2022</p>
+    <a href="https://rs.school/js/" target="_blank" class="rsschool">
+    <img src="/rsschool-cv/assets/img/image1.png" alt="RSSchool-icon" class="logo">
+    </a>
+</div>
+</footer>
 </body>
 </html>

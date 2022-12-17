@@ -1,3 +1,290 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1440px){
+.container {
+    padding: 0 30px;
+}
+}
+
+
 .body{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color:white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #20283D;
+
+    
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.menu {
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration:none;
+    color: #20283D;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: right;
+    transition: .1s;
+}
+
+.nav-link:hover {
+    color: #6D82AB;
+}
+
+.menu-item {
+    padding-right: 60px;
+}
+
+.profile {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 100%;
+    
+}
+
+.menu-list::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    margin-bottom: -60px;
+    left: 39%;
+    height: 1px;
+    background-color: #20283D;
+}
+
+.profile-photo {
+    width:250px;
+    height: 250px; 
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.column-left {
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #f4f8ff;
+}
+
+.column-right {
+    width: 65%;
+    margin-left: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+}
+
+h1 {
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+margin: 0;
+padding-top: 60px;
+}
+
+.title {
+font-size: 40px;
+color: #6D82AB;
+padding-top: 15px;
+}
+
+.about-description {
+    display: block;
+    width: 90%;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.column-right.line::after {
+    content: "";
+    position: absolute;
+    left: 46%;
+    margin-left: -100px;
+    width: 50%;
+    height: 1px;
+    background-color: #20283D;
+    margin-top: 40px;
+}
+
+
+.about-me, .education, .courses, .skills, .code, .projects, .languages, .contacts {
+    display: flex;
+}
+
+.education-list, .courses-list {
+    list-style: none;
+}
+
+.year {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6D82AB;
+    padding-bottom: 10px;
+}
+
+.speciality {
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.school {
+    font-weight: 300;
+    font-size: 16px;
+    color: #20283D;
+}
+
+.skills-list {
+    padding-left: 15px;
+}
+
+.column-second {
+    padding-top: 40px;
+}
+.column-third {
+    padding-left: 100px;
+}
+
+.progect-one {
+    padding-top: 25px;
+}
+
+.link-progect, .linkedIn-link, .discord-link, .github-link {
+    color: #20283D;
+    text-decoration: none;
+}
+
+.link-progect:hover {
+    color: #6D82AB;
+}
+.linkedIn-link:hover {
+    color: #6D82AB;
+}
+.discord-link:hover {
+    color: #6D82AB;
+}
+
+.github-link:hover {
+    color: #6D82AB;
+}
+
+.column-two {
+    padding-left: 300px;
+}
+
+.table {
+    padding: 0;
+    margin: 0;
+}
+.languges-item {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.languges-level {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6D82AB;
+}
+
+.phone, .linkedin, .envelope, .discord, .my-git {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.col-two {
+    padding-left: 100px;
+}
+
+.information {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.blue-background {
+    background-color: #6D82AB;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        
+}
+
+.logo {
+    width: 95px;
+    height: 35px;
+}
+
+.rsschool:hover{
+    opacity: 70%;
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 1px;
+    background-color: #20283D;
 }
