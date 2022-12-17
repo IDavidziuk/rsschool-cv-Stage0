@@ -63,7 +63,7 @@ html {
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #6D82AB;
+    color: #6D82AB;
 }
 
 .menu-item {
@@ -91,6 +91,7 @@ html {
     align-items: center;
     text-align: center;
     padding-left: 100px;
+    
 }
 
 .column-right {
@@ -195,6 +196,20 @@ padding-top: 15px;
     text-decoration: none;
 }
 
+.link-progect:hover {
+    color: #6D82AB;
+}
+.linkedIn-link:hover {
+    color: #6D82AB;
+}
+.discord-link:hover {
+    color: #6D82AB;
+}
+
+.github-link:hover {
+    color: #6D82AB;
+}
+
 .column-two {
     padding-left: 300px;
 }
@@ -254,6 +269,10 @@ padding-top: 15px;
 .logo {
     width: 95px;
     height: 35px;
+}
+
+.rsschool:hover{
+    opacity: 70%;
 }
 
 .footer-container::before {
