@@ -19,7 +19,7 @@
 }
 
 
-.body{
+body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,8 +29,6 @@
     font-weight: 400;
     line-height: 120%;
     color: #20283D;
-
-    
 }
 
 html {
@@ -126,9 +124,9 @@ padding-top: 60px;
 }
 
 .title {
-font-size: 40px;
+font-size: 37px;
 color: #6D82AB;
-padding-top: 15px;
+padding-top: 60px;
 }
 
 .about-description {
@@ -189,7 +187,7 @@ padding-top: 15px;
 }
 
 .progect-one {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .link-progect, .linkedIn-link, .discord-link, .github-link {
